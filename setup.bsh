@@ -1,0 +1,4 @@
+#!/bin/bash
+source /net/solan/mnt/tank/work/anavarro/code_quest/include/config.sh    # Ajusta tu path VCS
+source /net/solan/mnt/tank/work/anavarro/svunit/svunit/svunit-master/svunit-master/Setup.bsh   # Ajusta tu path SVUnit
+echo "VCS+SVUnit ready: $(which vcs) $(which buildSVUnit)"
